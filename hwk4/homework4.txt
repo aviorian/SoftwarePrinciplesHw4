@@ -17,6 +17,12 @@ ls
   HEAD    description  index  logs/     packed-refs
   config  hooks/       info/  objects/  refs/
 
+STEP-3:
+I can put a clickable text on readme file with following line:
+[Işık University Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+
 
 
 
