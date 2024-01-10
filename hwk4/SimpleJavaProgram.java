@@ -11,7 +11,7 @@ public class SimpleProgram {
 
         while(i<j-1) {
             i++;
-            if(i%2==1) {
+            if(i%2==0) {
                System.out.println(i); 
             }
             
