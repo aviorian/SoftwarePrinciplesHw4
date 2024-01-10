@@ -1,0 +1,9 @@
+# Package Files
+*.zip
+*.rar
+
+# Log file
+*.log
+
+# readme file
+readme.txt

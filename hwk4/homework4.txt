@@ -3,4 +3,27 @@ git config --global user.name "Hasan Berberkayar"
 git config --global user.email "berberkayarhasan@gmail.com"
 git config --global core.editor "netbeans"
 
+STEP-2:
+My steps for reaching .git directory as followings:
+cd SoftwarePrinciplesHw4\
+ls
+  hw4/
+
+ls -a
+  ./  ../  .git/  hwk4/
+
+cd .git\
+ls
+  HEAD    description  index  logs/     packed-refs
+  config  hooks/       info/  objects/  refs/
+
+STEP-3:
+I can put a clickable text on readme file with following line:
+[Işık University Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+
+
+
+
 
