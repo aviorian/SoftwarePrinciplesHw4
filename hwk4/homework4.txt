@@ -21,6 +21,76 @@ STEP-3:
 I can put a clickable text on readme file with following line:
 [Işık University Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
 
+STEP-4:
+zip,rar,log extensions are not allowed to commit. Additionally, readme.txt file cannot be committed.
+
+STEP-5:
+feature-1 branch is created and pushed to github repository. All commits are done in this branch is adding SimpleJavaProgram.java file.
+
+files in hmw4 folder of feature-1 branch:
+SimpleJavaProgram.java  homework4.txt
+
+files in hmw4 folder of main branch:
+homework4.txt
+
+STEP-6:
+All commits are done in this branch is updating SimpleJavaProgram.java file for feature-2 branch.
+
+ git commit -m "satisfying requirement change two"
+[feature-2 ea439be] satisfying requirement change two
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+STEP-7:
+All commits are done in this branch is updating SimpleJavaProgram.java file for feature-3 branch.
+
+git commit -m "satisfying requirement change three"
+[feature-3 997acaf] satisfying requirement change three
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+STEP-8:
+ git diff feature-1
+diff --git a/hwk4/SimpleJavaProgram.java b/hwk4/SimpleJavaProgram.java
+index 0350746..eea05c6 100644
+--- a/hwk4/SimpleJavaProgram.java
++++ b/hwk4/SimpleJavaProgram.java
+@@ -6,12 +6,15 @@ public class SimpleProgram {
+
+         Scanner scn = new Scanner(System.in);
+
+-        int i = scn.nextInt();
+-        int j = scn.nextInt();
++        int i = 1;
++        int j = 10;
+
+         while(i<j-1) {
+             i++;
+-            System.out.println(i);
++            if(i%2==0) {
++               System.out.println(i);
++            }
++
+         }
+     }
+-}
++}
+
+git diff feature-2
+diff --git a/hwk4/SimpleJavaProgram.java b/hwk4/SimpleJavaProgram.java
+index a3290bb..eea05c6 100644
+--- a/hwk4/SimpleJavaProgram.java
++++ b/hwk4/SimpleJavaProgram.java
+@@ -11,7 +11,7 @@ public class SimpleProgram {
+
+         while(i<j-1) {
+             i++;
+-            if(i%2==1) {
++            if(i%2==0) {
+                System.out.println(i);
+             }
+
+git diff feature-3
+no difference
+
 
 
 
