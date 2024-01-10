@@ -1,1 +1,6 @@
+STEP-1:
+git config --global user.name "Hasan Berberkayar"
+git config --global user.email "berberkayarhasan@gmail.com"
+git config --global core.editor "netbeans"
+
 
