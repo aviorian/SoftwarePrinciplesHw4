@@ -6,12 +6,15 @@ public class SimpleProgram {
 
         Scanner scn = new Scanner(System.in);
 
-        int i = scn.nextInt();
-        int j = scn.nextInt();
+        int i = 1;
+        int j = 10;
 
         while(i<j-1) {
             i++;
-            System.out.println(i);
+            if(i%2==1) {
+               System.out.println(i); 
+            }
+            
         }
     }
 }
